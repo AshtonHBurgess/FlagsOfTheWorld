@@ -1,0 +1,56 @@
+
+        ######## Ashtons Notes oin Instructions #########
+##########Click on load countries will open the doc text file , readall the contents infromthe file in as a 2demesional list using csv reader as listname 
+#  then all changes and edits will be coming from and appending to the 2 demensional list that we just opened the oONE time ata the start  of the program#
+# save to file will be DISABLED  untill the user has made one change, 
+# then it will save whatever changes have been made to that 2 demsensional list. "" will then change (accessMopde "w" to write the
+# changes back onto the original contries file)
+## only other time that it will "w" write back into the file is if the user closes the program using the Exit action, then we will save the current list back in
+## detals on country will be hidden untioll user chooses a country
+##########  end of ashtons notes########
+
+#################### Phase 1: Ashton ###################
+#######################################################
+# * I have studied Geoff's inclass and examples of "load people" and have followed through the flow of the list changes
+# * added the "Files comobox" and explored how I can link it
+# * made the GUI form for the page
+# * Currently update has the list populate with countries 
+#
+
+############### Phasse 2: Ashton #####################
+#######################################################
+#1))Have the Country list library load from the load country file button
+#2) calculate TOTAL WORLD POPULATIONS, all the index 2
+#3) Calculate the total area in KM and Miles for using DO NOT HARD CODE and      USING THE RADIO BUTTONS  if clicked do this
+#4) Display the correct country flag image
+#5) connect and piopulate the ComboBox (dropdown list)
+
+
+#
+#######################################################
+#######################################################
+#Control Type	    Description	Prefix to Use	Common Signal
+# Push Button	    Standard button	pushButton	clicked
+# Radio Button  	Radio toggle button	radio	clicked
+# Checkbox      	Checkbox toggle	checkbox	stateChanged
+# Combobox      	Dropdown list	combo	currentIndexChanged
+# List Widget   	Selectable list control that can contain many items	list	currentRowChanged
+# Frame	Container    object that can contain other controls.	frame	
+# Line Edit	Text box, used for allowing user input	lineEdit	
+# Label	Non-editable text display	label	
+# Menu Action	Choice in a program menu	        action	triggered
+
+########################################################
+
+############# PHASE 3: Ashton #################
+########################################################
+# integrated save to file and save but not save to file
+# display the population density
+# display the total country area
+# integrated the radio buttons to change the population denisty from miles to km and vice versa
+# integrated the miles and km to combobox
+
+# last I want to error handle so the user can only input a INT in the country line edit
+########################################################
+
+
